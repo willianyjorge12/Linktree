@@ -1,0 +1,51 @@
+/* reset pagina */
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+background-color: aquamarine; /* adicionar fundo */
+}
+
+.cabecalho{
+    display: flex; /* filhos do lado do outro */
+    flex-direction: column; /* filhos em coluna */
+    gap: 18px; /* espaçamento de filhos */
+    align-items: center; /* centralizar */
+    background-color: rgb(16, 119, 119);
+}
+
+.cabecalho img{
+    width: 200px;/* largura da imagem */
+    height: 200px; /* altura da imagem */
+    border-radius: 100%; /*arredondar borda*/
+  border: black 3px solid; /* adicionar borda e cor */
+  box-shadow: rgb(0, 0, 0, 0.25) 0px 4px 4px; /* sombra na borda */
+}
+.cabecalho h1{
+    font-size: 20px; /* tamanho da fonte */
+    font-family: "Inter", sans-serif; /* estilo de fonte */
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.btns a{
+    display: flex;
+    justify-content: center; /* alinhar eixo X */
+    padding: 16px; /* espaçamento interno */
+    border-radius: 58px; /* borda */
+    border: black 2px solid; /*  */
+    box-shadow: black 5px 5px 0px;
+
+    width: 235px;
+    background-color: rgb(106, 184, 16);
+    color: black;
+    text-decoration: none; /* tirar a decoração da tag a */
+}
+
