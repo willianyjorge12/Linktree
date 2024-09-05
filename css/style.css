@@ -6,7 +6,12 @@
     font-family: "Inter", sans-serif;
 }
 body{
-background-color: aquamarine; /* adicionar fundo */
+    height: 100vh;
+    background-color: aquamarine; /* adicionar fundo */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
 }
 
 .cabecalho{
@@ -40,12 +45,16 @@ background-color: aquamarine; /* adicionar fundo */
     justify-content: center; /* alinhar eixo X */
     padding: 16px; /* espaçamento interno */
     border-radius: 58px; /* borda */
-    border: black 2px solid; /*  */
+    border: black 2px solid; /* cor da borda  */
     box-shadow: black 5px 5px 0px;
 
     width: 235px;
     background-color: rgb(106, 184, 16);
     color: black;
     text-decoration: none; /* tirar a decoração da tag a */
+}
+.btns a:hover{
+    background-color: cadetblue;/* mudar cor do botão quando passa o mouse */
+    color: aliceblue; /* cor da letra dentro do efeito do mouse */
 }
 
